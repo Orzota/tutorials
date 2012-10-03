@@ -1,0 +1,31 @@
+Step-by-Step MapReduce Programming 
+http://orzota.com/blog/step-by-step-mapreduce-programming/
+/** Copyright(c) 2012 Orzota, Inc. All Rights Reserved. **/
+By Varad Meru
+=========
+
+1. Fork/download the project.
+2. In the shell, run ant on the build.xml present
+$ cd StepByStepMRGuide_BookCrossing
+$ ant
+Buildfile: /Users/varadmeru/BookCrossing/build.xml
+
+clean:
+   [delete] Deleting directory /Users/varadmeru/BookCrossing/build/classes
+   [delete] Deleting directory /Users/varadmeru/BookCrossing/build
+   [delete] Deleting directory /Users/varadmeru/BookCrossing/dist
+
+init:
+    [mkdir] Created dir: /Users/varadmeru/BookCrossing/build/classes
+    [mkdir] Created dir: /Users/varadmeru/BookCrossing/dist
+
+build:
+    [javac] Compiling 3 source files to /Users/varadmeru/BookCrossing/build/classes
+
+dist:
+      [jar] Building jar: /Users/varadmeru/BookCrossing/dist/BookCrossing.jar
+
+BUILD SUCCESSFUL
+Total time: 17 seconds
+
+Start using the Jar file on Hadoop.
