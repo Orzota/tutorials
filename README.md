@@ -1,4 +1,4 @@
-tutorials
+Tutorials
 =========
 
 Code for tutorials
