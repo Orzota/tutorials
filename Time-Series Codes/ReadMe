@@ -1,1 +1,39 @@
 
+#Time Series Analysis
+
+##Introduction
+“A time series is a series of data points indexed (or listed or graphed) in time order. Most
+commonly, a time series is a sequence taken at successive equally spaced points in time. Thus
+it is a sequence of discrete-time data.”
+Or, simply, “a data which is collected based on time at regular intervals is known as time series
+data”.
+Time series analysis comprises methods for analyzing time series data to extract meaningful
+statistics and other characteristics of time series data.
+It focuses on comparing values of a single time series or multiple dependent time series at
+different points in time.
+
+*Requirements*
+
+*Installed R of version 3.4.3 or above
+*Installed python of version 2.7.6 or above
+
+##Src
+
+Each file in the source is named with the model that it is implementing.
+“Holts_smoothing1.R” and “Holts_smoothing2.R” represents the Holts Smoothing algorithms
+when the seasonality is less than 24 and when the seasonality is greater than 24 respectively.
+“Python_Implementation.py” represents the python file for implementing the forecasting
+algorithms.
+
+##Data
+
+The data folder contains the csv files for the algorithm implementation. You can use the
+files "requairt.csv" for moving average,Weighted moving average and exponential smoothing.
+That is a very small data set which can be loaded very fast.  You can use the "vine_data1.csv" for the same methods
+mentioned above.
+The "AirPassengers" data set in the R studio(We can Directly load the data in R) can be used to
+forecast using Holt Winters. We can observe that the forecast will be good and see the clear
+match with the actual data.
+
+For ARIMA, we can use "Tractor-Sales.csv" or "AirPassengers" data which will result in good
+forecasting.
