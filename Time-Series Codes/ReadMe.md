@@ -12,7 +12,8 @@ statistics and other characteristics of time series data.
 It focuses on comparing values of a single time series or multiple dependent time series at
 different points in time.
 
-*Requirements*
+
+<h3>Requirements</h3>
 
 <ul>
   <li>Installed R of version 3.4.3 or above</li>
