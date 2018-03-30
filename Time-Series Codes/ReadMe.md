@@ -1,7 +1,7 @@
 
-#Time Series Analysis
+<h2>Time Series Analysis</h2>
 
-##Introduction
+<h3>Introduction</h3>
 “A time series is a series of data points indexed (or listed or graphed) in time order. Most
 commonly, a time series is a sequence taken at successive equally spaced points in time. Thus
 it is a sequence of discrete-time data.”
@@ -14,10 +14,11 @@ different points in time.
 
 *Requirements*
 
-*Installed R of version 3.4.3 or above
-*Installed python of version 2.7.6 or above
+<ul>
+  <li>Installed R of version 3.4.3 or above</li>
+<li>Installed python of version 2.7.6 or above</li></ul>
 
-##Src
+<h3>Src</h3>
 
 Each file in the source is named with the model that it is implementing.
 “Holts_smoothing1.R” and “Holts_smoothing2.R” represents the Holts Smoothing algorithms
@@ -25,7 +26,7 @@ when the seasonality is less than 24 and when the seasonality is greater than 24
 “Python_Implementation.py” represents the python file for implementing the forecasting
 algorithms.
 
-##Data
+<h3>Data</h3>
 
 The data folder contains the csv files for the algorithm implementation. You can use the
 files "requairt.csv" for moving average,Weighted moving average and exponential smoothing.
