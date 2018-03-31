@@ -22,20 +22,20 @@ different points in time.
 <h3>Src</h3>
 
 Each file in the source is named with the model that it is implementing.
-“Holts_smoothing1.R” and “Holts_smoothing2.R” represents the Holts Smoothing algorithms
+“holts_smoothing1.R” and “holts_smoothing2.R” represents the Holts Smoothing algorithms
 when the seasonality is less than 24 and when the seasonality is greater than 24 respectively.
-“Python_Implementation.py” represents the python file for implementing the forecasting
+“python_implementation.py” represents the python file for implementing the forecasting
 algorithms.
 
 <h3>Data</h3>
 
 The data folder contains the csv files for the algorithm implementation. You can use the
-files "requairt.csv" for moving average,Weighted moving average and exponential smoothing.
-That is a very small data set which can be loaded very fast.  You can use the "vine_data1.csv" for the same methods
+files "air_temperature.csv" for moving average,Weighted moving average and exponential smoothing.
+That is a very small data set which can be loaded very fast.  You can use the "vineyard_data1.csv" for the same methods
 mentioned above.
 The "AirPassengers" data set in the R studio(We can Directly load the data in R) can be used to
 forecast using Holt Winters. We can observe that the forecast will be good and see the clear
 match with the actual data.
 
-For ARIMA, we can use "Tractor-Sales.csv" or "AirPassengers" data which will result in good
+For ARIMA, we can use "tractor-Sales.csv" or "AirPassengers" data which will result in good
 forecasting.
