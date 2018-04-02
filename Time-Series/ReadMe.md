@@ -37,7 +37,7 @@ The TSstudio package provides a set of tools for descriptive analysis of a time 
 The data folder contains the csv files for the algorithm implementation. You can use the
 files "air_temperature.csv" for moving average,Weighted moving average and exponential smoothing.
 That is a very small data set which can be loaded very fast.  You can use the "vineyard_data1.csv" for the same methods
-mentioned above.
+mentioned above. The columns of "vineyard_data1.csv" are time, airtemperature, internal temperature, relativehumidity, soil moisture, solar radiation and leaf wetness in the same order. 
 The "AirPassengers" data set in the R studio(We can Directly load the data in R) can be used to
 forecast using Holt Winters. We can observe that the forecast will be good and see the clear
 match with the actual data.
