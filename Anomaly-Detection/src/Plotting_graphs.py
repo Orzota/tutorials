@@ -1,3 +1,5 @@
+#This file is for plotting time-series data with time as x-axis using 'matplotlib' library
+
 import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
