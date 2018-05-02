@@ -1,3 +1,7 @@
+#This file is for creating some dummy timestamps to the data(if no timestamp information is present in the data)
+#so that the data can be used for NAB
+
+
 import pandas as pd
 from datetime import datetime
 from datetime import timedelta
